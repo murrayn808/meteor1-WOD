@@ -26,3 +26,28 @@ body {
   padding-top: 10px;
   padding-bottom: 20px;
 }
+
+body {
+  --bs-light-rgb: 48,73,95;
+  background: url("/images/wod-buzzs-background.jpg") no-repeat center center fixed;
+  background-size: cover;
+}
+
+.navbar {
+  --bs-navbar-color: white;
+  --bs-navbar-brand-color: white;
+  --bs-nav-link-color: white;
+}
+
+#topMenu {
+  color: white;
+}
+
+footer {
+  background-color: white;
+  font-family: 'Noto Serif';
+}
+
+.nav-link {
+  --bs-nav-link-color: white;
+}
